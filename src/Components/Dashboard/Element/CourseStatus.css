@@ -1,0 +1,65 @@
+.Coursestatus {
+    height: 45%;
+    width: 84%;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Charts {
+    /* background-color: aquamarine; */
+    height: 90%;
+    width: 65%;
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.Meter {
+    width: 50px;
+    /* background-color: #56afa3; */
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.Percentage{
+    margin-bottom: 3px;
+    color: white;
+}
+.Meter_container{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Chart_info{
+    width: 33%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Color_info{
+    color: white;
+    display: flex;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Box{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.Box{
+    margin-left: 10px;
+    margin-right: 10px;
+}

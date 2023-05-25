@@ -1,0 +1,25 @@
+.DashboardContainer {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.FirstBox {
+    /* background-color: brown; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondBox {
+    /* background-color: rgb(42, 0, 121); */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+        
+}
