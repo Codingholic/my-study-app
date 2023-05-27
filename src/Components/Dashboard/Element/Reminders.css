@@ -5,4 +5,91 @@
     margin-top: 35px;
     box-shadow: 0px 2px 5px 0px;
     border-radius: 12px;
+    display: flex;
+    
+
+}
+.Icons_mail_container{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Notification_container{
+    height: 100%;
+    width: 78%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: coral; */
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+.Notification_status_container{
+    height: 100%;
+    width: 8%;
+    /* background-color: crimson; */
+}
+.Button_icon{
+    color: white;
+    background-color: #282727;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Notification_Source{
+    color: white;
+    height: 56px;
+    width: 50%;
+    border-radius: 5px;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Notification{
+    
+    height: 72%;
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Notification_box{
+    border-radius: 7px;
+    height: 120px;
+    width: 120px;
+    
+    /* background-color: rgb(10, 228, 228); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 3px 2px black;
+}
+.inbox{
+background-color: #daba7e;
+}
+.unread{
+background-color: lightcoral;
+}
+.sent{
+background-color: #d59b72;
+}
+.Notification_Source h2{
+    margin-left: 10px;
 }

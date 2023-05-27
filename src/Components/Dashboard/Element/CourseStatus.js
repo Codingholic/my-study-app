@@ -62,6 +62,7 @@ const CourseStatus = () => {
           </motion.div>
         </div>
 
+
       </div>
       <div className='Chart_info'>
         {/* <h1 style={{ color: "white" }}>Course status</h1> */}
@@ -89,6 +90,8 @@ const CourseStatus = () => {
           <h3>Ad campaign</h3>
           <div style={{ backgroundColor: "#90EE90" }} className='Box'></div>
         </div>
+
+
       </div>
     </div>
   )

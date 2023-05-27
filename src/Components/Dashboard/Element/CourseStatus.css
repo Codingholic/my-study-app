@@ -23,7 +23,7 @@
     width: 50px;
     /* background-color: #56afa3; */
     border-radius: 10px 10px 0px 0px;
-    
+    box-shadow: inset 0px 0px 8px 0px;
 }
 .Percentage{
     margin-bottom: 3px;

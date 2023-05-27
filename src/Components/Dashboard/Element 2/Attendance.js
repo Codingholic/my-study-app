@@ -20,6 +20,7 @@ const Attendance = () => {
           {value => {
             return (
               <CircularProgressbarWithChildren value={value} styles={buildStyles({
+                
                 pathColor: "#69E279"
               })}>
 
