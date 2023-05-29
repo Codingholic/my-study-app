@@ -7,6 +7,9 @@ const Navbar = () => {
            <div className='Profile_Picture'>
             <img src={"/"} alt='' />
            </div>
+           <div className='Switch_pages'>
+              <div className='switch_icons'></div>
+           </div>
         </div>
     </div> 
   )

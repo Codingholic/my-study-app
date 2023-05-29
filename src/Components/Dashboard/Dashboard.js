@@ -3,7 +3,7 @@ import "./Dashboard.css"
 import CourseStatus from './Element/CourseStatus'
 import Reminders from './Element/Reminders'
 import Attendance from './Element 2/Attendance'
-import Calendar from './Element 2/Calendar'
+import Tasks from './Element 2/Tasks'
 const Dashboard = () => {
   return (
     <div className='DashboardContainer'>
@@ -13,7 +13,7 @@ const Dashboard = () => {
       </div>
       <div className='SecondBox'>
         <Attendance />
-        <Calendar />
+        <Tasks />
       </div>
     </div>
   )
