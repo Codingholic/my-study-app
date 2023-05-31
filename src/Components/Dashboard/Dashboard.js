@@ -6,6 +6,7 @@ import Attendance from './Element 2/Attendance'
 import Tasks from './Element 2/Tasks'
 const Dashboard = () => {
   return (
+    
     <div className='DashboardContainer'>
       <div className='FirstBox'>
         <CourseStatus />

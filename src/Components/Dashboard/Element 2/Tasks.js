@@ -7,7 +7,7 @@ const Tasks = () => {
   return (
     <div className='Tasks'>
       <div className='Task_text'>
-        <div style={{ height: "50px", width: "50px", }}>
+        <div style={{ height: "50px", width: "50px", marginTop: "10px"}}>
           <Circle percent={10} strokeWidth={4} strokeColor="#69E279" />
         </div>
         <h2 style={{ color: "white", marginLeft: "10px" }}>Task Progress</h2></div>
