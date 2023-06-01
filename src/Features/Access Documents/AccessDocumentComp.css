@@ -1,30 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.AccessDocuments_Container{
-    height: 100%;
-    width: 100%;
-    /* background-color: blue; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
+.AccessDocuments_Container {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.Subjects_container{
-    height: 95%;
-    width: 75%;
-    /* background-color: aqua; */
-    background-image: linear-gradient(#2d2d2d, #383838);
-    box-shadow: 0px 2px 5px 0px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    background-color: #2196F3;
+
+.Subjects_container {
+  height: 95%;
+  width: 75%;
+  /* background-color: aqua; */
+  background-image: linear-gradient(#2d2d2d, #383838);
+  box-shadow: 0px 2px 5px 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
 }
-.Semester_text{
+
+.Semester_text {
   height: 10%;
   width: 100%;
   color: white;
@@ -34,41 +38,128 @@
   align-items: center;
 }
 
-.Semester_container{
-    height: 95%;
-    width: 20%;
-    /* background-color: rgb(255, 238, 0); */
-    background-image: linear-gradient(#2d2d2d, #383838);
-    box-shadow: 0px 2px 5px 0px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    padding: 2px;
+.Semester_container {
+  height: 95%;
+  width: 20%;
+  /* background-color: rgb(255, 238, 0); */
+  background-image: linear-gradient(#2d2d2d, #383838);
+  box-shadow: 0px 2px 5px 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px;
 
 }
-.Semester_buttons{
+
+.Semester_buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-cursor: pointer;
+  cursor: pointer;
 }
 
+.Card {
+  height: 300px;
+  width: 250px;
+  /* background-color: #2196F3; */
+  border-radius: 10px;
+  background-image: linear-gradient(#2d2d2d, #383838);
+  box-shadow: 0px 2px 5px 0px;
+  display: flex;
+  justify-content: center;
+  
+}
 
-
-/*  */
-
-
-
-
-
-/* CSS */
-.Semester_buttons{
+.Semester_buttons {
   width: 95%;
   display: flex;
   margin: 4px;
+  font-weight: bold;
+  font-style: bold;
+  font-size: 20px;
   border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px black;
   flex: 1 1;
-  background-color: #ffd48f;
+  /* border: 5px solid rgb(160, 88, 16); */
+  color: white;
+  background: rgb(16 114 52);
+  background: linear-gradient(0deg, rgb(8 102 42) 0%, rgb(58 188 154) 100%);
+}
+.Semester_buttons img{
+  object-fit: cover;
+}
+.imageResposive {
+
+  height: 100px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.name_background_subject{
+  height: 48px;
+  width: 176px;
+  position: relative;
+  left: 37px;
+  border-radius: 6px;
+  top: -30px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_short_form{
+  height: 90px;
+  width: 90%;
+  margin-top: -52px;
+  margin-left: 12px;
+  /* background-color: #d86262; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.level_subject{
+  height: 30px;
+  width: 100%;
+  /* background-color: #ffd48f; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Tr_name{
+  height: 40px;
+  width: 100%;
+  /* background-color: brown; */
+
+}
+.Text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.level{
+  height: 10px;
+  width: 80%;
+  background-color: #ffffff
+ 
+}
+.bar{
+  background-color: #69E279;
+  height: 100%;
+width: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.bar p{
+  color: white;
+  margin-top: 10px;
+}
+.space{
+  height: 20px;
+}
+.Semester_buttons h4 {
+  margin-left: 7px;
 }
