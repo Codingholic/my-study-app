@@ -177,6 +177,9 @@ const UploadSubmissions = () => {
             <div className='display_percentage'>
               <h3>Completed Projects: 13</h3>
             </div>
+            <div className='display_percentage'>
+              <h3>Pending Projects: 13</h3>
+            </div>
           </div>
           <div className="Upload_items_box2">
             <label style={{ color: "white", marginLeft: "10px", marginTop: "10px", marginBottom: "10px" }}>Search By ID</label>

@@ -202,7 +202,7 @@ input:focus {
 }
 
 .project_list {
-  min-height: 67px;
+  min-height: 71px;
   width: 95%;
   background-color: #ffffff;
   display: flex;

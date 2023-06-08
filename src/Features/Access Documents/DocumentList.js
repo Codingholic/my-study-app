@@ -5,6 +5,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import { BsFillLockFill } from "react-icons/bs";
 
 const DocumentList = () => {
+
     return (
         <div className='App'>
             <Navbar />
