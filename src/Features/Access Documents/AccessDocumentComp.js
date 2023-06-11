@@ -5,7 +5,6 @@ import History from "./assets/history.jpeg"
 import art from "./assets/art.jpg"
 import English from "./assets/english.jpg"
 import Maths from "./assets/maths.jpg"
-// import photography from "./assets/photography.jpeg"
 import { AiFillLock } from "react-icons/ai";
 import "./AccessDocumentComp.css"
 import { BsFillLockFill } from "react-icons/bs";
