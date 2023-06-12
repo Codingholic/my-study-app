@@ -28,60 +28,67 @@ const Academics = () => {
               </tr>
               <tr>
                 <td className='subject_name_table'>English</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+
               </tr>
 
               <tr>
                 <td className='subject_name_table'>psycholoy</td>
-                <td>16</td>
-                <td>14</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
               </tr>
               <tr>
                 <td className='subject_name_table'>Konkani</td>
-                <td>20</td>
-                <td>30</td>
-                <td>40</td>
-                <td>50</td>
-                <td>50</td>
-                <td>50</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+
+
 
               </tr>
 
               <tr>
                 <td className='subject_name_table'>Photography</td>
-                <td>16</td>
-                <td>14</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
               </tr>
               <tr>
                 <td className='subject_name_table'>Science</td>
-                <td>16</td>
-                <td>14</td>
-                <td>14</td>
-                <td>14</td>
-                <td>14</td>
-                <td>14</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
               </tr>
               <tr>
                 <td className='subject_name_table'>Media Laws</td>
-                <td>16</td>
-                <td>14</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+
               </tr>
               <tr>
                 <td className='subject_name_table'>Media Laws</td>
-                <td>16</td>
-                <td>14</td>
-                <td>10</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
+                <td style={{backgroundColor: "white"}}>16</td>
               </tr>
             </table>
             <div className="attendance_academics">

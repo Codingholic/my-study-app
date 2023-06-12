@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import DocumentList from './Features/Access Documents/DocumentList';
 import UploadSubmissions from './Features/Access Documents/UploadSubmissions';
 import Academics from './Features/Access Documents/Academics';
+import TaskPage from './Features/Access Documents/TaskPage';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
             <Route path='DocumentList' element={<DocumentList /> }/>
             <Route path='UploadSubmissions' element={<UploadSubmissions /> }/>
             <Route path='Academics' element={<Academics /> }/>
+            <Route path='Tasks' element={<TaskPage /> }/>
           </Route>
         </Routes>
       </BrowserRouter>
