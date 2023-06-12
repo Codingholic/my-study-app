@@ -4,10 +4,11 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AccessDocuments from './Features/Access Documents/AccessDocuments';
 import Home from './Home/Home';
-import DocumentList from './Features/Access Documents/DocumentList';
-import UploadSubmissions from './Features/Access Documents/UploadSubmissions';
-import Academics from './Features/Access Documents/Academics';
-import TaskPage from './Features/Access Documents/TaskPage';
+import DocumentList from './Features/DocumentList/DocumentList';
+
+import TaskPage from './Features/Task page/TaskPage';
+import Academics from '../src/Features/Academics/Academics'
+import UploadSubmissions from './Features/upload submissions/UploadSubmissions';
 function App() {
   return (
     <div className="App">

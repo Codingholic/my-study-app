@@ -42,7 +42,7 @@
     height: 100%;
     width: 50%;
     /* background-color: #dbe7f1; */
-text-align: center;
+    text-align: center;
     overflow: scroll;
 }
 
@@ -51,6 +51,7 @@ text-align: center;
     width: 100%;
     /* background-color: #2196F3; */
 }
+
 .tasks_list::-webkit-scrollbar {
     display: none;
-  }
+}
