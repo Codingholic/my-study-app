@@ -191,10 +191,10 @@ const UploadSubmissions = () => {
               <div className='sort_buttons'>newest</div>
               <div className='sort_buttons'>oldest</div>
             </div>
-           <div className='show_completed_button'>Show Completed</div>
+            <div className='show_completed_button'>Show Completed</div>
           </div>
           <div className="Upload_items_box">
-            <div style={{color: "white"}} className='urgent_submissions_text'>
+            <div style={{ color: "white" }} className='urgent_submissions_text'>
               <h4>Urgent due</h4>
             </div>
             <div className='urgent_list'>

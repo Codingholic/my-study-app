@@ -187,6 +187,7 @@ const AccessDocumentComp = () => {
                 <motion.div className="Semester_buttons" whileTap={{ scale: 0.9 }}><AiFillLock />    <h4>Semester 3</h4></motion.div>
                 <motion.div className="Semester_buttons" whileTap={{ scale: 0.9 }}><AiFillLock />    <h4>Semester 4</h4></motion.div>
                 <motion.div className="Semester_buttons" whileTap={{ scale: 0.9 }}><AiFillLock />    <h4>Semester 5</h4></motion.div>
+                <motion.div className="Semester_buttons" whileTap={{ scale: 0.9 }}><AiFillLock />    <h4>Semester 6</h4></motion.div>
                 <div className='space'></div>
             </div>
         </div>

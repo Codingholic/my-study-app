@@ -70,7 +70,7 @@ table.test {
 
   border-collapse: separate;
   border-spacing: 10px;
-  *border-collapse: expression('separate', cellSpacing='10px');
+  border-collapse: expression('separate', cellSpacing='10px');
 }
 .attendance_academics{
   height: 39%;
