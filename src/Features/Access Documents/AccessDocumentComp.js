@@ -8,7 +8,7 @@ import Maths from "./assets/maths.jpg"
 import { AiFillLock } from "react-icons/ai";
 import "./AccessDocumentComp.css"
 import { BsFillLockFill } from "react-icons/bs";
-import { Link } from 'react-router-dom'
+import { Link  } from 'react-router-dom'
 
 
 
@@ -51,7 +51,8 @@ const AccessDocumentComp = () => {
                         </div>
                     </motion.div>
                 </Link>
-                <Link to={"/DocumentList"} ><motion.div className='Card' whileTap={{ scale: 0.8 }}>
+                
+                <Link to={"/AccessDocuments/DocumentList"} ><motion.div className='Card' whileTap={{ scale: 0.8 }}>
                     <div className='subject_image'>
                         <img className='imageResposive' src={History} alt='' />
                         <div className='name_background_subject'>

@@ -159,29 +159,54 @@ table.tasks_table {
     display: flex;
     justify-content: space-between;
 }
-.Show_tasks_buttons{
-    height: 60%;
+
+.Show_tasks_buttons {
+    height: 40%;
     /* background-color: aliceblue; */
-    width: 35%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
 }
-.show_task{
-    height: 70px;
+
+.show_task {
+    height: 38px;
+    width: 122px;
     background-color: burlywood;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-.show_task p{
-    
-    font-size: 20px;
+
+.show_task p {
+
+    margin-left: 5px;
+    font-size: 16px;
     font-weight: 500;
+
 }
-.show_task_text{
-    margin: 10px;
+
+.show_task_text {
+    margin: 30px;
     color: white;
 }
 
+.icon_box {
+    background-color: rgb(200 150 84 / 97%);
+    border-radius: 10px 2px 2px 9px;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.bottom_tasks_bar_refresh{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #2196F3; */
+    align-items: center;
+}

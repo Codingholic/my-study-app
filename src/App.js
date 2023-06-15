@@ -9,21 +9,23 @@ import DocumentList from './Features/DocumentList/DocumentList';
 import TaskPage from './Features/Task page/TaskPage';
 import Academics from '../src/Features/Academics/Academics'
 import UploadSubmissions from './Features/upload submissions/UploadSubmissions';
+import Chat from './Features/Communication/Chat';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-        <Route path='/'>
-            <Route index element={<Home />} />
-          </Route>
+          <Route path='/' element={<Home />} />
           <Route>
-            <Route path='AccessDocuments' element={<AccessDocuments /> }/>
-            <Route path='DocumentList' element={<DocumentList /> }/>
-            <Route path='UploadSubmissions' element={<UploadSubmissions /> }/>
-            <Route path='Academics' element={<Academics /> }/>
-            <Route path='Tasks' element={<TaskPage /> }/>
+            <Route path='DocumentList' element={<DocumentList />} />
+            <Route path='AccessDocuments' element={<AccessDocuments />} />
+            <Route path='UploadSubmissions' element={<UploadSubmissions />} />
+            <Route path='Academics' element={<Academics />} />
+            <Route path='Tasks' element={<TaskPage />} />
+            <Route path='Chat' element={<Chat />} />
           </Route>
+
+
         </Routes>
       </BrowserRouter>
     </div>
