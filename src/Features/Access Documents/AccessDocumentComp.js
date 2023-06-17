@@ -8,7 +8,7 @@ import Maths from "./assets/maths.jpg"
 import { AiFillLock } from "react-icons/ai";
 import "./AccessDocumentComp.css"
 import { BsFillLockFill } from "react-icons/bs";
-import { Link  } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -16,8 +16,11 @@ const AccessDocumentComp = () => {
     const perce = 23
     const content = 23;
     return (
+        
         <div className='AccessDocuments_Container'>
+            
             <div className='Subjects_container'>
+            
                 <Link style={{ textDecoration: "none" }} to={"/DocumentList"}>
                     <motion.div style={{ textDecoration: "none" }} className='Card' whileTap={{ scale: 0.8 }}>
                         <div style={{ textDecoration: "none" }} className='subject_image'>
