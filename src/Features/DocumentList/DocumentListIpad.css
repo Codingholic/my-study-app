@@ -1,0 +1,79 @@
+.Document_containerIpad {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Items_containerIpad {
+    height: 95%;
+    width: 75%;
+    
+    /* background-color: aqua; */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    background-color: #2196F3;
+    flex-direction: column;
+
+}
+
+.Item_containerIpad {
+    margin: 20px;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f6f6, #f1f1f1, #ededed);
+    height: 50px;
+    box-shadow: 0px 2px 5px 0px;
+    justify-content: space-between;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.Item_containerIpad h5 {
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.Download_buttonIpad {
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 0px;
+}
+.items_second_containerIpad {
+    height: 95%;
+    width: 20%;
+    /* background-color: rgb(255, 238, 0); */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+  
+  }
+  .Content_boxIpad{
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    box-shadow: 0px 2px 5px 0px black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }

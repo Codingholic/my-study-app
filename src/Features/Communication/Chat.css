@@ -553,6 +553,7 @@
   /* background-color: aquamarine; */
   width: 100%;
 }
+
 .group_title_text_container_array_names {
   display: flex;
   align-items: center;
@@ -562,7 +563,8 @@
   /* background-color: rgb(255, 210, 127); */
   width: 100%;
 }
-.chat_image_profile_group_or_people_top_head{
+
+.chat_image_profile_group_or_people_top_head {
   color: white;
   height: 50px;
   width: 50px;

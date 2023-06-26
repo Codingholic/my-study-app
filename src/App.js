@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AccessDocuments from './Features/Access Documents/AccessDocuments';
 import Home from './Home/Home';
 import DocumentList from './Features/DocumentList/DocumentList';
-
+import "../src/Components/Responsive/ResponsiveDesktop.css"
 import TaskPage from './Features/Task page/TaskPage';
 import Academics from '../src/Features/Academics/Academics'
 import UploadSubmissions from './Features/upload submissions/UploadSubmissions';

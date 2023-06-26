@@ -286,7 +286,7 @@ const Chat = () => {
                         <div className="chat_head_top_container">
                             <div className="group_people_container">
                                 <div className="group_image_or_people_container">
-                                <img className="chat_image_profile_group_or_people_top_head" src={image} alt="/" />
+                                    <img className="chat_image_profile_group_or_people_top_head" src={image} alt="/" />
                                 </div>
                                 <div className="contain_name_and_name_list_array">
                                     <div className="group_title_text_container">
@@ -322,7 +322,12 @@ const Chat = () => {
                         </div>
                     </div>
                 </div>
-                <div className="chat_second_container"></div>
+                <div className="chat_second_container">
+                    <h3>Chat settings</h3>
+                    <div className="">
+                       
+                    </div>
+                </div>
             </div>
         </div>
     );

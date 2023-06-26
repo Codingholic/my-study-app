@@ -1,0 +1,465 @@
+/* For Tablet View */
+.hide {
+  max-height: 0px !important;
+  max-width: 0px !important;
+  visibility: hidden;
+}
+
+.color {
+  background-color: #69E279;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* .NavbarContainer {
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+        display: block;
+    }
+
+    .Navbar {
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+        display: block;
+    } */
+
+  .NavbarContainer {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    max-height: 4%;
+    min-width: 100%;
+    /* background-color: rgb(161, 128, 12); */
+  }
+
+  .Navbar {
+    max-height: 100%;
+    min-width: 84%;
+    /* background-color: brown; */
+    border-radius: 9px;
+    display: flex;
+    margin-top: 16px;
+    /* margin-bottom: 16px; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+
+
+  }
+
+  .Profile_Picture {
+    background-color: gray;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+  }
+
+  .Switch_pages {
+    height: 3%;
+    width: 100%;
+    /* background-color: goldenrod; */
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .switch_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 1px black;
+    cursor: pointer;
+  }
+
+  .FirstBox {
+    /* background-color: brown; */
+    max-height: 50%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .DashboardContainer {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SecondBox {
+    /* background-color: rgb(42, 0, 121); */
+    max-height: 50%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .Coursestatus {
+    height: 45%;
+    width: 84%;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Reminders{
+    height: 46%;
+    width: 84%;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    margin-top: 35px;
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 12px;
+    display: flex;
+  }
+
+  .App {
+    height: 230vh;
+    width: 100%;
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Attendance {
+    height: 43%;
+    margin-top: 18px;
+    max-width: 82%;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .Tasks {
+    height: 46%;
+    max-width: 84%;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    margin-top: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .Meter {
+    max-width: 41px;
+    /* background-color: #56afa3; */
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 0px 8px 0px;
+  }
+
+  .Chart_info {
+    width: 33%;
+    height: 92%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+
+
+
+
+
+  /* ||-----------------ACCESS DOCUMENTS-------------------|| */
+
+
+
+
+
+
+  .Document_ipad_containerr {
+    height: 30%;
+    background-color: #2196F3;
+  }
+
+  .documentlist_ipad {
+    /* background-color: #2196F3; */
+    max-height: 20%;
+    max-width: 84%;
+    margin-top: 39px;
+  }
+
+  .Document_containerIpad {
+    max-height: 100%;
+    min-width: 100%;
+    /* background-color: blue; */
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .Items_containerIpad {
+    max-height: 100%;
+    min-width: 84%;
+    background-color: aqua;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* background-color: #2196F3; */
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .secondBox {
+    height: 50%;
+    /* background-color: #69E279; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Content_boxIpad {
+    background-color: white;
+    min-height: 85%;
+    width: 80%;
+    box-shadow: 0px 2px 5px 0px black;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 10px !important;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .items_second_containerIpad {
+    max-height: 90%;
+    min-width: 85%;
+    /* background-color: rgb(255, 238, 0); */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row !important;
+    padding: 2px;
+  }
+
+
+
+  .AccessDocuments_Container {
+    max-height: 38%;
+    max-width: 100%;
+    margin-top: 30px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .Subjects_container {
+    /* max-height: 0px;
+        max-width: 0px;
+        visibility: hidden; */
+    max-height: 95%;
+    min-width: 84%;
+    /* background-color: aqua; */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto !important;
+    gap: 10px;
+    background-color: #2196F3;
+  }
+
+  .Semester_text {
+    height: 10%;
+    width: 100%;
+    color: white;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Semester_container {
+    /* height: 95%; */
+    /* width: 20%; */
+    visibility: hidden;
+    max-height: 0px;
+    max-width: 0px;
+    /* background-color: rgb(255, 238, 0); */
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+
+  }
+
+  .Semester_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .Card {
+    max-height: 240px;
+    max-width: 200px;
+    /* background-color: #2196F3; */
+    border-radius: 10px;
+    background-image: linear-gradient(#2d2d2d, #383838);
+    box-shadow: 0px 2px 5px 0px black;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Semester_buttons {
+    width: 95%;
+    display: flex;
+    margin: 4px;
+    font-weight: bold;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px black;
+    flex: 1 1;
+    /* border: 5px solid rgb(160, 88, 16); */
+    color: white;
+    background: rgb(16 114 52);
+    background: linear-gradient(0deg, rgb(8 102 42) 0%, rgb(58 188 154) 100%);
+  }
+
+  .Semester_buttons img {
+    object-fit: cover;
+  }
+
+  .imageResposive {
+
+    max-height: 68px;
+    max-width: 198px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .name_background_subject {
+    height: 48px;
+    width: 176px;
+    position: relative;
+    left: 11px !important;
+    border-radius: 6px;
+    top: -30px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content_short_form {
+    height: 90px;
+    width: 90%;
+    margin-top: -52px;
+    margin-left: 12px;
+    /* background-color: #d86262; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .level_subject {
+    height: 30px;
+    width: 100%;
+    /* background-color: #ffd48f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Tr_name {
+    height: 40px;
+    width: 100%;
+    /* background-color: brown; */
+
+  }
+
+  .Text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .level {
+    height: 10px;
+    width: 80%;
+    background-color: #ffffff
+  }
+
+  .bar {
+    background-color: #69E279;
+    height: 100%;
+    width: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bar p {
+    color: white;
+    margin-top: 10px;
+  }
+
+  .space {
+    height: 20px;
+  }
+
+  .Semester_buttons h4 {
+    margin-left: 7px;
+  }
+
+
+
+  
+
+  /* ||-----------------ACCESS DOCUMENTS-------------------|| */
+
+
+
+
+
+}

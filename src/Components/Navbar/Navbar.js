@@ -2,6 +2,7 @@ import React from 'react'
 import "./Navbar.css"
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import "../Responsive/ResponsiveTablet.css"
 // import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (

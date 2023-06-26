@@ -4,6 +4,7 @@ import CourseStatus from './Element/CourseStatus'
 import Reminders from './Element/Reminders'
 import Attendance from './Element 2/Attendance'
 import Tasks from './Element 2/Tasks'
+import "../Responsive/ResponsiveTablet.css"
 const Dashboard = () => {
   return (
     
